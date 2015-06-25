@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AC2F951B395C3500A7A8FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC2F941B395C3500A7A8FF /* main.m */; };
+		18AC2F981B395C3500A7A8FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC2F971B395C3500A7A8FF /* AppDelegate.m */; };
+		18AC2F9B1B395C3500A7A8FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC2F9A1B395C3500A7A8FF /* ViewController.m */; };
+		18AC2F9E1B395C3500A7A8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AC2F9C1B395C3500A7A8FF /* Main.storyboard */; };
+		18AC2FA01B395C3500A7A8FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC2F9F1B395C3500A7A8FF /* Images.xcassets */; };
+		18AC2FA31B395C3500A7A8FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC2FA11B395C3500A7A8FF /* LaunchScreen.xib */; };
+		18AC2FAF1B395C3500A7A8FF /* pebble_watch_versionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC2FAE1B395C3500A7A8FF /* pebble_watch_versionTests.m */; };
+		18AC2FBE1B395E4F00A7A8FF /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FBC1B395E4F00A7A8FF /* PebbleKit.framework */; };
+		18AC2FBF1B395E4F00A7A8FF /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FBD1B395E4F00A7A8FF /* PebbleVendor.framework */; };
+		18AC2FC61B395ED100A7A8FF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FC01B395ED100A7A8FF /* CoreBluetooth.framework */; };
+		18AC2FC71B395ED100A7A8FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FC11B395ED100A7A8FF /* CoreGraphics.framework */; };
+		18AC2FC81B395ED100A7A8FF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FC21B395ED100A7A8FF /* CoreMotion.framework */; };
+		18AC2FC91B395ED100A7A8FF /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FC31B395ED100A7A8FF /* ExternalAccessory.framework */; };
+		18AC2FCA1B395ED100A7A8FF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FC41B395ED100A7A8FF /* libz.dylib */; };
+		18AC2FCB1B395ED100A7A8FF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AC2FC51B395ED100A7A8FF /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AC2FA91B395C3500A7A8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18AC2F871B395C3500A7A8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18AC2F8E1B395C3500A7A8FF;
+			remoteInfo = "pebble-watch version";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18AC2F8F1B395C3500A7A8FF /* pebble-watch version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pebble-watch version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC2F931B395C3500A7A8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC2F941B395C3500A7A8FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18AC2F961B395C3500A7A8FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18AC2F971B395C3500A7A8FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18AC2F991B395C3500A7A8FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18AC2F9A1B395C3500A7A8FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18AC2F9D1B395C3500A7A8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AC2F9F1B395C3500A7A8FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18AC2FA21B395C3500A7A8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18AC2FA81B395C3500A7A8FF /* pebble-watch versionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pebble-watch versionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AC2FAD1B395C3500A7A8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AC2FAE1B395C3500A7A8FF /* pebble_watch_versionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pebble_watch_versionTests.m; sourceTree = "<group>"; };
+		18AC2FBC1B395E4F00A7A8FF /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
+		18AC2FBD1B395E4F00A7A8FF /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		18AC2FC01B395ED100A7A8FF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		18AC2FC11B395ED100A7A8FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18AC2FC21B395ED100A7A8FF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		18AC2FC31B395ED100A7A8FF /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		18AC2FC41B395ED100A7A8FF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		18AC2FC51B395ED100A7A8FF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AC2F8C1B395C3500A7A8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC2FC61B395ED100A7A8FF /* CoreBluetooth.framework in Frameworks */,
+				18AC2FC71B395ED100A7A8FF /* CoreGraphics.framework in Frameworks */,
+				18AC2FC81B395ED100A7A8FF /* CoreMotion.framework in Frameworks */,
+				18AC2FC91B395ED100A7A8FF /* ExternalAccessory.framework in Frameworks */,
+				18AC2FCA1B395ED100A7A8FF /* libz.dylib in Frameworks */,
+				18AC2FCB1B395ED100A7A8FF /* MessageUI.framework in Frameworks */,
+				18AC2FBF1B395E4F00A7A8FF /* PebbleVendor.framework in Frameworks */,
+				18AC2FBE1B395E4F00A7A8FF /* PebbleKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC2FA51B395C3500A7A8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AC2F861B395C3500A7A8FF = {
+			isa = PBXGroup;
+			children = (
+				18AC2FC01B395ED100A7A8FF /* CoreBluetooth.framework */,
+				18AC2FC11B395ED100A7A8FF /* CoreGraphics.framework */,
+				18AC2FC21B395ED100A7A8FF /* CoreMotion.framework */,
+				18AC2FC31B395ED100A7A8FF /* ExternalAccessory.framework */,
+				18AC2FC41B395ED100A7A8FF /* libz.dylib */,
+				18AC2FC51B395ED100A7A8FF /* MessageUI.framework */,
+				18AC2FBC1B395E4F00A7A8FF /* PebbleKit.framework */,
+				18AC2FBD1B395E4F00A7A8FF /* PebbleVendor.framework */,
+				18AC2F911B395C3500A7A8FF /* pebble-watch version */,
+				18AC2FAB1B395C3500A7A8FF /* pebble-watch versionTests */,
+				18AC2F901B395C3500A7A8FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AC2F901B395C3500A7A8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AC2F8F1B395C3500A7A8FF /* pebble-watch version.app */,
+				18AC2FA81B395C3500A7A8FF /* pebble-watch versionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AC2F911B395C3500A7A8FF /* pebble-watch version */ = {
+			isa = PBXGroup;
+			children = (
+				18AC2F961B395C3500A7A8FF /* AppDelegate.h */,
+				18AC2F971B395C3500A7A8FF /* AppDelegate.m */,
+				18AC2F991B395C3500A7A8FF /* ViewController.h */,
+				18AC2F9A1B395C3500A7A8FF /* ViewController.m */,
+				18AC2F9C1B395C3500A7A8FF /* Main.storyboard */,
+				18AC2F9F1B395C3500A7A8FF /* Images.xcassets */,
+				18AC2FA11B395C3500A7A8FF /* LaunchScreen.xib */,
+				18AC2F921B395C3500A7A8FF /* Supporting Files */,
+			);
+			path = "pebble-watch version";
+			sourceTree = "<group>";
+		};
+		18AC2F921B395C3500A7A8FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC2F931B395C3500A7A8FF /* Info.plist */,
+				18AC2F941B395C3500A7A8FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AC2FAB1B395C3500A7A8FF /* pebble-watch versionTests */ = {
+			isa = PBXGroup;
+			children = (
+				18AC2FAE1B395C3500A7A8FF /* pebble_watch_versionTests.m */,
+				18AC2FAC1B395C3500A7A8FF /* Supporting Files */,
+			);
+			path = "pebble-watch versionTests";
+			sourceTree = "<group>";
+		};
+		18AC2FAC1B395C3500A7A8FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18AC2FAD1B395C3500A7A8FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AC2F8E1B395C3500A7A8FF /* pebble-watch version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC2FB21B395C3500A7A8FF /* Build configuration list for PBXNativeTarget "pebble-watch version" */;
+			buildPhases = (
+				18AC2F8B1B395C3500A7A8FF /* Sources */,
+				18AC2F8C1B395C3500A7A8FF /* Frameworks */,
+				18AC2F8D1B395C3500A7A8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pebble-watch version";
+			productName = "pebble-watch version";
+			productReference = 18AC2F8F1B395C3500A7A8FF /* pebble-watch version.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18AC2FA71B395C3500A7A8FF /* pebble-watch versionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AC2FB51B395C3500A7A8FF /* Build configuration list for PBXNativeTarget "pebble-watch versionTests" */;
+			buildPhases = (
+				18AC2FA41B395C3500A7A8FF /* Sources */,
+				18AC2FA51B395C3500A7A8FF /* Frameworks */,
+				18AC2FA61B395C3500A7A8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18AC2FAA1B395C3500A7A8FF /* PBXTargetDependency */,
+			);
+			name = "pebble-watch versionTests";
+			productName = "pebble-watch versionTests";
+			productReference = 18AC2FA81B395C3500A7A8FF /* pebble-watch versionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AC2F871B395C3500A7A8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Optisol Business Solution";
+				TargetAttributes = {
+					18AC2F8E1B395C3500A7A8FF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					18AC2FA71B395C3500A7A8FF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 18AC2F8E1B395C3500A7A8FF;
+					};
+				};
+			};
+			buildConfigurationList = 18AC2F8A1B395C3500A7A8FF /* Build configuration list for PBXProject "pebble-watch version" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AC2F861B395C3500A7A8FF;
+			productRefGroup = 18AC2F901B395C3500A7A8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AC2F8E1B395C3500A7A8FF /* pebble-watch version */,
+				18AC2FA71B395C3500A7A8FF /* pebble-watch versionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AC2F8D1B395C3500A7A8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC2F9E1B395C3500A7A8FF /* Main.storyboard in Resources */,
+				18AC2FA31B395C3500A7A8FF /* LaunchScreen.xib in Resources */,
+				18AC2FA01B395C3500A7A8FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC2FA61B395C3500A7A8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AC2F8B1B395C3500A7A8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC2F9B1B395C3500A7A8FF /* ViewController.m in Sources */,
+				18AC2F981B395C3500A7A8FF /* AppDelegate.m in Sources */,
+				18AC2F951B395C3500A7A8FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC2FA41B395C3500A7A8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AC2FAF1B395C3500A7A8FF /* pebble_watch_versionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18AC2FAA1B395C3500A7A8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18AC2F8E1B395C3500A7A8FF /* pebble-watch version */;
+			targetProxy = 18AC2FA91B395C3500A7A8FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18AC2F9C1B395C3500A7A8FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC2F9D1B395C3500A7A8FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AC2FA11B395C3500A7A8FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC2FA21B395C3500A7A8FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AC2FB01B395C3500A7A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18AC2FB11B395C3500A7A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AC2FB31B395C3500A7A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "pebble-watch version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18AC2FB41B395C3500A7A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "pebble-watch version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18AC2FB61B395C3500A7A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pebble-watch versionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pebble-watch version.app/pebble-watch version";
+			};
+			name = Debug;
+		};
+		18AC2FB71B395C3500A7A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pebble-watch versionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pebble-watch version.app/pebble-watch version";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AC2F8A1B395C3500A7A8FF /* Build configuration list for PBXProject "pebble-watch version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC2FB01B395C3500A7A8FF /* Debug */,
+				18AC2FB11B395C3500A7A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AC2FB21B395C3500A7A8FF /* Build configuration list for PBXNativeTarget "pebble-watch version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC2FB31B395C3500A7A8FF /* Debug */,
+				18AC2FB41B395C3500A7A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18AC2FB51B395C3500A7A8FF /* Build configuration list for PBXNativeTarget "pebble-watch versionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AC2FB61B395C3500A7A8FF /* Debug */,
+				18AC2FB71B395C3500A7A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AC2F871B395C3500A7A8FF /* Project object */;
+}
